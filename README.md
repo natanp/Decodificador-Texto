@@ -21,3 +21,16 @@ A letra "a" é convertida para "ai"
 A letra "o" é convertida para "ober"
 A letra "u" é convertida para "ufat"
 ```
+## Como Usar
+
+  Clone este repositório:
+   ```bash
+   git clone https://github.com/natanp/Decodificador-Texto.git
+   ```
+
+   Navegue até o diretório do projeto:
+   ```bash
+   cd nome-do-repositorio
+   ```
+
+   Abra o arquivo ```index.html``` em seu navegador para iniciar a aplicação.
