@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header>
+        <img class="header-logo" src="./assets/header-logo.png" alt="Logo da Alura">
+    </header>
+    <main class="main">
+        <section class="main__input">
+            <textarea class="main__input__textarea" rows="5" cols="40" placeholder="Digite seu texto aqui"></textarea>
+            <div class="main__input__info"><img src="./assets/bi_exclamation-circle-fill.png" height="16px"
+                    width="16px">
+                <p class="main__input__info__text">Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="main__buttons">
+                <button class="main__buttons__button1" id="btnCriptografar"
+                    onclick="btnCriptografar()">Criptografar</button>
+                <button class="main__buttons__button2" id="btnDescriptografar" onclick="btnDescriptografar()">Descriptografar</button>
+            </div>
+        </section>
+        <section class="main__output" id="initialSection">
+            <img src="./assets/searching.png" alt="Imagem simbolizando mensagem não encontrada">
+            <h1>Nenhuma mensagem encontrada</h1>
+            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+        </section>
+        <section class="main__output" id="resultSection" style="display: none;">
+            <h1>Texto gerado</h1>
+            <textarea class="main__input__textarea" id="outputText" rows="5" cols="40"></textarea>
+            <button class="main__buttons__button2" id="btnCopiar" onclick="btnCopiar()" style="margin-bottom: 20px;">Copiar</button>
+            <div id="snackbar">Texto copiado para área de transferência.</div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Natan Pimenta. 2024.</p>
+    </footer>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>
