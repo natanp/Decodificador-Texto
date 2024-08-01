@@ -30,7 +30,7 @@ A letra "u" é convertida para "ufat"
 
    Navegue até o diretório do projeto:
    ```bash
-   cd nome-do-repositorio
+   cd Decodificador-Texto
    ```
 
    Abra o arquivo ```index.html``` em seu navegador para iniciar a aplicação.
